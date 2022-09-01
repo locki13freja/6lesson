@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Дз6</title>
+</head>
+<body>
+    <p align="center">Задача 1</p>
+    <script>
+        {
+let number3=parseInt(prompt("Перша сторона.Завдання 1"));
+let number4=parseInt(prompt("Друга сторона.Завдання 1"));
+let perim=number3+number4;
+let plosh=number3*number4;
+document.write(`Площа прямокутника = ${plosh} см. <br/> Периметр = ${perim} см.`)
+}
+    </script>
+    <p align="center">Задача 2</p>
+<script>
+{
+    let zarob=parseInt(prompt("Розмір заробітної плати(менше прожиткового мінімуму)(грн).Завдання 2"))
+    let minim=parseInt(prompt("Розмір прожиткового мінімуму(грн).Завдання 2"))
+    let help=minim-zarob
+    document.write(`Соціальна допомога:${help} грн.`)
+}
+</script>
+<p align="center">Задача 3</p>
+<script>
+    {
+    let num1=parseInt(prompt("Вартість одиниці першого товару(грн).Завдання 3"))
+    let cost1=parseInt(prompt("Кількість одиниц першого(шт) товару.Завдання 3"))
+    let num2=parseInt(prompt("Вартість одиниці другого товару(грн).Завдання 3"))
+    let cost2=parseInt(prompt("Кількість одиниць другого(шт.) товару.Завдання 3"))
+    let tovar1=num1*cost1
+    let tovar2=num2*cost2
+    let summa=tovar1+tovar2
+    document.write(
+      `Вартість першого товару-${tovar1} грн. <br/> Вартість другого товару-${tovar2} грн. <br/> Сумма:${summa} грн.`);
+}
+</script>
+<p align="center">Завдання 4</p>
+<script>
+{
+    let orenda=parseInt(prompt("Орендна плата за місяць(грн).Завдання 4"))
+    let month=orenda*12
+    let year=orenda*24
+    let years=orenda*120
+    document.write(
+      `За рік-${month} грн. <br/> За 2 роки-${year} грн. <br/> За 10 років-${years} грн.`);
+}
+</script>
+<p align="center">Завдання 5</p>
+<script>
+    {
+    let tomat=parseInt(prompt("Ціна за кг помідор(грн).Завдання 5"))
+    let tomat2=parseInt(prompt("Кількість кілограмів.Завдання 5"))
+    let sum=tomat*tomat2
+    document.write(`Ціна за помідори(Всього)-${sum} грн.`)
+}
+</script>
+<p align="center">Завдання 6</p>
+<script>
+    {
+    let year2=parseInt(prompt("Рік народження учня.Завдання 6"))
+    let suom=2022-year2
+    document.write(`Вік учня-${suom}років.`)
+}
+</script>
+<p align="center">Завдання 7</p>
+<script>
+    {
+  let domen = parseInt(prompt("Арендна плата за місяць(грн).Завдання 7"));
+  let doomer = parseInt(prompt("Вказана сумма грошей(грн).Завдання 7"));
+  let naro = 12;
+  let marus =Math.round(doomer / domen);
+  let dari =Math.round(marus /12);
+  document.write(
+    `Сумми вистачить на ${marus} місяців <br/> Сумми вистачть на ${dari} років`
+  );
+}
+</script>
+<p align="center">Завдання 8</p>
+<script>
+    {
+  let volga=parseInt(prompt("Довжина цвяха(см).Завдання 8"))
+  let rus=parseInt(prompt("Цвях заглиблюється на(мм).Завдання 8"))
+  let vost=Math.round((volga/rus)*10)
+  document.write(`Цвях забивається за ${vost} ударів`)
+}
+</script>
+<p align="center">Завдання 9</p>
+<script>
+  {
+  let burlak=parseInt(prompt("Ширина екрана(см).Завдання 9"))
+  let eye=parseInt(prompt("Кількість елементів в рядку(шт).Завдання 9"))
+  let hey=burlak/eye
+  document.write(`Ширина елементів ${hey} см.`)
+}
+</script>
+<p align="center">Завдання 10</p>
+<script>
+  {
+  let age=parseInt(prompt("Введіть вік дитини(роки).Завдання 10"))
+  let childhome=3-age;
+  let school=6-age;
+  let endschool=17-age;
+let univer=18-age;
+let enduniver=23-age;
+document.write(
+  `Вона будет відвідувати садочок через ${childhome} років. <br/> Вона піде у школу через ${school} років. <br/> Вона закінчить школу через ${endschool} років. <br/> Вона вступить в університет через ${univer} років. <br/> Вона закінчить університет через ${enduniver} років.`
+);
+}
+</script>
+<p align="center">Завдання 11</p>
+<script>
+  {
+  let zablan=parseInt(prompt("Суміснику нараховано(грн): Завдання 11"))
+  let tati=zablan-0.25;
+  document.write(`Сумісник отримав ${tati} гривень.`)
+}
+</script>
+<p align="center">Завдання 12</p>
+<script src="./king.js"></script>
+</body>
+</html>
